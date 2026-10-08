@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 219 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 220 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1941,6 +1941,18 @@ Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-
 - Official: yes
 - Tags: post-quantum, ml-dsa, x402, identity, receipts
 - Category: Security and Identity
+
+### HANRIA Mandate Check
+
+Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.
+
+- URL: https://hanria.ai
+- Language: JavaScript
+- Provider: HANRIA
+- Official: yes
+- Tags: mandates, authorization, agent-safety, receipts, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
 
 ### Lodestar Stamp
 

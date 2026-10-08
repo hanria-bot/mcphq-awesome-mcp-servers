@@ -1714,6 +1714,25 @@
     "official": true
   },
   {
+    "name": "HANRIA Mandate Check",
+    "url": "https://hanria.ai",
+    "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "HANRIA",
+    "tags": [
+      "mandates",
+      "authorization",
+      "agent-safety",
+      "receipts",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://check.hanria.ai/v1/mcp"
+    }
+  },
+  {
     "name": "Whimbrel MedTech Analyst",
     "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
     "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
